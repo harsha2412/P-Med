@@ -1,0 +1,173 @@
+SUDO_GID=1000
+MAIL=/var/mail/USER
+LANGUAGE=en_GB:en
+LC_TIME=en_US.UTF-8
+USER=USER
+HOME=/home/harsha
+LC_MONETARY=en_US.UTF-8
+COLORTERM=truecolor
+SUDO_UID=1000
+LOGNAME=USER
+TERM=xterm-256color
+USERNAME=USER
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+LC_ADDRESS=en_US.UTF-8
+DISPLAY=:1
+LANG=en_GB.UTF-8
+LC_TELEPHONE=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+SUDO_COMMAND=/bin/sh collections.sh
+LC_NAME=en_US.UTF-8
+SHELL=/bin/bash
+SUDO_USER=harsha
+LC_MEASUREMENT=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+JAVA_HOME=/usr/local/java/jdk-9.0.4/bin/java
+PWD=/home/harsha/PycharmProjects/mip
+LC_NUMERIC=en_US.UTF-8
+LC_PAPER=en_US.UTF-8
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.2 LTS
+Release:	18.04
+Codename:	bionic
+Linux Patorie 4.15.0-91-generic #92-Ubuntu SMP Fri Feb 28 11:09:48 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              8
+On-line CPU(s) list: 0-7
+Thread(s) per core:  2
+Core(s) per socket:  4
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               60
+Model name:          Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+Stepping:            3
+CPU MHz:             3292.632
+CPU max MHz:         4000.0000
+CPU min MHz:         800.0000
+BogoMIPS:            7183.44
+Virtualisation:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            8192K
+NUMA node0 CPU(s):   0-7
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+MemTotal:       32881212 kB
+MemFree:        27273716 kB
+MemAvailable:   30022152 kB
+Buffers:          816920 kB
+Cached:          2072116 kB
+SwapCached:            0 kB
+Active:          3548240 kB
+Inactive:        1382804 kB
+Active(anon):    2049380 kB
+Inactive(anon):    53080 kB
+Active(file):    1498860 kB
+Inactive(file):  1329724 kB
+Unevictable:         664 kB
+Mlocked:             664 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:               240 kB
+Writeback:             0 kB
+AnonPages:       2042788 kB
+Mapped:           411104 kB
+Shmem:             62820 kB
+Slab:             440368 kB
+SReclaimable:     381960 kB
+SUnreclaim:        58408 kB
+KernelStack:       13888 kB
+PageTables:        53396 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    18537752 kB
+Committed_AS:    7606512 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      303652 kB
+DirectMap2M:     6977536 kB
+DirectMap1G:    27262976 kB
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0 306.1M  1 loop /snap/datagrip/81
+loop1    7:1    0 202.9M  1 loop /snap/vlc/1397
+loop2    7:2    0  93.9M  1 loop /snap/core/9066
+loop3    7:3    0 339.8M  1 loop /snap/pycharm-community/194
+loop4    7:4    0    55M  1 loop /snap/core18/1754
+loop5    7:5    0   291M  1 loop /snap/vlc/1620
+loop6    7:6    0 339.1M  1 loop /snap/pycharm-community/192
+loop7    7:7    0    55M  1 loop /snap/core18/1705
+loop8    7:8    0 349.2M  1 loop /snap/datagrip/83
+loop9    7:9    0  93.8M  1 loop /snap/core/8935
+loop10   7:10   0   9.1M  1 loop /snap/canonical-livepatch/95
+loop11   7:11   0   9.1M  1 loop /snap/canonical-livepatch/94
+loop12   7:12   0         0 loop 
+sda      8:0    0 238.5G  0 disk 
+├─sda1   8:1    0  76.4G  0 part 
+├─sda2   8:2    0     1K  0 part 
+├─sda5   8:5    0  15.9G  0 part 
+├─sda6   8:6    0 123.1G  0 part /
+└─sda7   8:7    0  23.1G  0 part 
+sr0     11:0    1  1024M  0 rom  
+H/W path        Device      Class          Description
+======================================================
+                            system         OptiPlex 9020 (05A4)
+/0                          bus            00V62H
+/0/0                        memory         64KiB BIOS
+/0/3a                       processor      Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+/0/3a/3b                    memory         256KiB L1 cache
+/0/3a/3c                    memory         1MiB L2 cache
+/0/3a/3d                    memory         8MiB L3 cache
+/0/3e                       memory         32GiB System Memory
+/0/3e/0                     memory         8GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+/0/3e/1                     memory         8GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+/0/3e/2                     memory         8GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+/0/3e/3                     memory         8GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+/0/100                      bridge         4th Gen Core Processor DRAM Controller
+/0/100/1                    bridge         Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller
+/0/100/1/0                  display        Oland XT [Radeon HD 8670 / R7 250/350]
+/0/100/1/0.1                multimedia     Cape Verde/Pitcairn HDMI Audio [Radeon HD 7700/7800 Series]
+/0/100/14                   bus            8 Series/C220 Series Chipset Family USB xHCI
+/0/100/14/0     usb3        bus            xHCI Host Controller
+/0/100/14/0/3               input          Dell USB Entry Keyboard
+/0/100/14/0/9               input          USB Optical Mouse
+/0/100/14/1     usb4        bus            xHCI Host Controller
+/0/100/16                   communication  8 Series/C220 Series Chipset Family MEI Controller #1
+/0/100/16.3                 communication  8 Series/C220 Series Chipset Family KT Controller
+/0/100/19       eno1        network        Ethernet Connection I217-LM
+/0/100/1a                   bus            8 Series/C220 Series Chipset Family USB EHCI #2
+/0/100/1a/1     usb1        bus            EHCI Host Controller
+/0/100/1a/1/1               bus            USB hub
+/0/100/1b                   multimedia     8 Series/C220 Series Chipset High Definition Audio Controller
+/0/100/1d                   bus            8 Series/C220 Series Chipset Family USB EHCI #1
+/0/100/1d/1     usb2        bus            EHCI Host Controller
+/0/100/1d/1/1               bus            USB hub
+/0/100/1f                   bridge         Q87 Express LPC Controller
+/0/100/1f.2                 storage        SATA Controller [RAID mode]
+/0/100/1f.3                 bus            8 Series/C220 Series Chipset Family SMBus Controller
+/0/1            scsi0       storage        
+/0/1/0.0.0      /dev/sda    disk           256GB TOSHIBA THNSNJ25
+/0/1/0.0.0/1    /dev/sda1   volume         76GiB Windows NTFS volume
+/0/1/0.0.0/2    /dev/sda2   volume         162GiB Extended partition
+/0/1/0.0.0/2/5  /dev/sda5   volume         15GiB Linux swap volume
+/0/1/0.0.0/2/6  /dev/sda6   volume         123GiB EXT4 volume
+/0/1/0.0.0/2/7  /dev/sda7   volume         23GiB EXT4 volume
+/0/2            scsi2       storage        
+/0/2/0.0.0      /dev/cdrom  disk           DVD+-RW DS-8ABSH
