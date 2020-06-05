@@ -1,0 +1,27 @@
+nohup: ignoring input
+/home/harsha_unt/parallel_fi/Source/Cofig.py:4: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(configStream)
+/home/harsha_unt/.local/lib/python3.6/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.datasets.samples_generator module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.datasets. Anything that cannot be imported from sklearn.datasets is now part of the private API.
+  warnings.warn(message, FutureWarning)
+Distribution type = region6k = 512
+ trial 1
+1
+Traceback (most recent call last):
+  File "LowCal.py", line 376, in <module>
+    lowCalManager = LowCalManager()
+  File "LowCal.py", line 45, in __init__
+    self.useEMClusters()
+  File "LowCal.py", line 76, in useEMClusters
+    pm = PartitioningManager.PartitioningManager(p, self.distType)
+  File "/home/harsha_unt/parallel_fi/Source/PartitioningManager.py", line 26, in __init__
+    self.maranzana = Maranzana.Maranzana(k, distType)
+  File "/home/harsha_unt/parallel_fi/Source/Algorithms/Maranzana.py", line 23, in __init__
+    self.sourceDao = SourceDAO.SourceDAO(k, distType,'Maranzana')
+  File "/home/harsha_unt/parallel_fi/Source/DAOs/SourceDAO.py", line 16, in __init__
+    self.connection = psycopg2.connect(connectionString)
+  File "/home/harsha_unt/.local/lib/python3.6/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Connection timed out
+	Is the server running on host "replan-server.unt.edu" (129.120.60.38) and accepting
+	TCP/IP connections on port 5432?
+

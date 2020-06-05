@@ -1,0 +1,4 @@
+  File "LowCal.py", line 154
+    pm = PartitioningManager.PartitioningManager(params['k'], self.distType)
+     ^
+SyntaxError: invalid syntax

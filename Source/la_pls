@@ -1,0 +1,55 @@
+nohup: ignoring input
+/home/harsha_unt/parallel_fi/Source/Cofig.py:4: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(configStream)
+/home/harsha_unt/.local/lib/python3.6/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.datasets.samples_generator module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.datasets. Anything that cannot be imported from sklearn.datasets is now part of the private API.
+  warnings.warn(message, FutureWarning)
+Traceback (most recent call last):
+  File "<__array_function__ internals>", line 2, in where
+KeyboardInterrupt
+Exception ignored in: 'sklearn.cluster._k_means_fast._relocate_empty_clusters_dense'
+Traceback (most recent call last):
+  File "<__array_function__ internals>", line 2, in where
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<__array_function__ internals>", line 2, in where
+KeyboardInterrupt
+Exception ignored in: 'sklearn.cluster._k_means_fast._relocate_empty_clusters_dense'
+Traceback (most recent call last):
+  File "<__array_function__ internals>", line 2, in where
+KeyboardInterrupt
+Distribution type = region6k = 512
+ trial 1
+1
+{'bic': 11, 'aic': 15, 'silhouette': 2, 'calinski_harabasz': 14, 'davies_bouldin': 9}
+{'densityEstimates': 11, 'clustering': 9}
+[11]
+winner for distance 11
+winner 11
+******************** whole instance 0 *********************************************************
+
+
+Total Parts 11
+Traceback (most recent call last):
+  File "LowCal.py", line 376, in <module>
+    lowCalManager = LowCalManager()
+  File "LowCal.py", line 45, in __init__
+    self.useEMClusters()
+  File "LowCal.py", line 111, in useEMClusters
+    pm.em.createParts(True) # Make it true for distance analysis
+  File "/home/harsha_unt/parallel_fi/Source/Algorithms/EM.py", line 206, in createParts
+    part.homogeneous = self.areDemandPointsRandom(part.destinations)
+  File "/home/harsha_unt/parallel_fi/Source/Algorithms/EM.py", line 240, in areDemandPointsRandom
+    return normalityTester.checkForNormality()
+  File "/home/harsha_unt/parallel_fi/Source/Distribution/NormalityTester.py", line 127, in checkForNormality
+    return self.chiSquaredTest()
+  File "/home/harsha_unt/parallel_fi/Source/Distribution/NormalityTester.py", line 83, in chiSquaredTest
+    self.populateObservedBins()
+  File "/home/harsha_unt/parallel_fi/Source/Distribution/NormalityTester.py", line 64, in populateObservedBins
+    if cell.checkIfPointWithinCell(Point(pt.x, pt.y)):
+  File "/home/harsha_unt/parallel_fi/Source/Distribution/NormalityTester.py", line 138, in checkIfPointWithinCell
+    if point.x <= self.topRightCorner.x and point.x >= self.bottomLeftCorner.x and point.y <= self.topRightCorner.y and point.y >= self.bottomLeftCorner.y:
+  File "/home/harsha_unt/.local/lib/python3.6/site-packages/shapely/geometry/point.py", line 55, in x
+    return self.coords[0][0]
+  File "/home/harsha_unt/.local/lib/python3.6/site-packages/shapely/coords.py", line 75, in __getitem__
+    has_z = self._ndim == 3
+KeyboardInterrupt

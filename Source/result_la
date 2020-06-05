@@ -1,0 +1,19 @@
+Distribution type = losangelesn = 2774
+ trial 1
+1
+{'bic': 18, 'aic': 20, 'silhouette': 2, 'calinski_harabasz': 19, 'davies_bouldin': 6}
+{'densityEstimates': 18, 'clustering': 6}
+[18]
+winner 18
+******************** whole instance 0 *********************************************************
+
+
+Total Parts 18
+Number of parts after merging 17
+Number of em current sources == 17
+ASSIGNING Independenet PROBLEMs TO MIP OR FI
+
+
+ Number og cpus = 16
+
+

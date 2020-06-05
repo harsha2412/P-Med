@@ -1,0 +1,11 @@
+Distribution type = losangelesn = 2774
+ trial 1
+1
+{'bic': 20, 'aic': 20, 'silhouette': 2, 'calinski_harabasz': 19, 'davies_bouldin': 20}
+{'densityEstimates': 20, 'clustering': 20}
+[20]
+winner 20
+******************** whole instance 0 *********************************************************
+
+
+Total Parts 20

@@ -1,0 +1,81 @@
+Database:
+          Name: <DBNAME>
+          Host:   <HOSTNAME>
+          User: <DBUSER>
+          Password:  <DBPASSWORD>
+#SchemaName: largescale
+SchemaName: regions_lowcal
+WorkingCopySchemaName: regions_lowcal
+#WorkingCopySchemaName: synthetic
+Runs: 1
+MaranzanaValidityRuns: 50
+GriaRuns: 10
+DestinationDemandTable:
+                        Suffix: _general_blockgroups
+                        eppSuffix: _epp
+                        DemandColumn: b01003001
+                        Id: replan_id
+DestinationGeometryTable:
+                          Suffix: _shape_blockgroups
+                          CentroidColumn: centroid
+                          Id: replan_id
+                          BoundaryColumn: geom
+CandidateSourceCapacityTable:
+                        Suffix: _general_blockgroups
+                        CapacityColumn: b01003001
+CandidateSourceGeometryTable:
+                          Suffix: _shape_blockgroups
+                          Id: replan_id
+                          CentroidColumn: centroid
+                          BoundaryColumn: geom
+SourceTable:
+                          Suffix: _pods
+                          Id: pod_id
+                          DestinationId: destinationId
+                          Cost: distance_cost
+                          Lat: lat
+                          Long: long
+                          Boundary: geom
+                          Centroid: centroid
+                          Destinations: destinations
+SyntheticData:
+  DestinationsTable:
+      Suffix: _destinations
+      DestinationId: id
+      Boundary: geom
+      Centroid: centroid
+      Demand: demand
+      Random: _Random
+      OneCluster: _OneCluster
+      //OneCluster: OneclusterRandom
+      MultipleClusters: _clusters_
+params:
+  gmmProbability: 0.75
+  gmmProbabilityPercent: 75
+  selectionRuns: 5
+  instances: 1
+
+  #blockgroups: 3349
+  #blockgroups: 6138
+  blockgroups: 4850
+  blockgroups: 2774
+  trial: 1
+  mean: 512
+  std: 512
+  totalPopulation: 10000000
+  totalDestinations: 350 // do we need this?
+  cluster: 0.999
+  inner: 0.80
+  innerOuter: 0.0
+  kStart: 256
+  #k: 800
+  k: 400
+  kEnd: 400
+  maxP:  15
+  statsAlpha: 0.05
+  maxN: 200
+  unitCell: 10000
+  size: 200
+  analysisType: w
+  MultiCenters:
+    number: 5
