@@ -1,4 +1,4 @@
-# P-Med
+# Solvinf p-median Problems
 
 This repository contains source code for solving a p-median problem using:
 1. Mixed Integer Linear Programming (Exact Solution), mip.py
